@@ -79,21 +79,6 @@ form {
   flex: 1;
 }
 
-/* Styling for the title "Costs Manager"*/
-#title {
-  text-align: center;
-  margin-bottom: 10px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 36px;
-  font-weight: bold;
-  color: #333;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
-
 /* Styling for container */
 #container {
   display: flex;
