@@ -31,7 +31,7 @@ function App() {
     <LocalizationProvider dateAdapter={AdapterDayjs}>
       <Container>
         {/* Application title */}
-        <h4>Costs Manager</h4>
+        <h1 id="title">Costs Manager</h1>
         <Container>
           {/* CostForm component for adding new costs */}
           <CostForm db={db} setCostRows={setCostRows} />
