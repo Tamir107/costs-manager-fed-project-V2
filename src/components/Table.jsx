@@ -52,12 +52,6 @@ const Table = ({ isLoading, db = {}, costRows, setCostRows }) => {
     return (
         <div style={{ height: 400, width: '100%' }}>
             <DataGrid
-{/*                 sx={{
-                    '.MuiDataGrid-columnHeaderTitle': { // Styling the table headers
-                        fontWeight: 'bold !important',
-                        textDecoration: 'underline',
-                    }
-                }} */}
                 rows={costRows}
                 columns={columns}
                 pageSize={5}
