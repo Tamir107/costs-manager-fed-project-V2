@@ -1,13 +1,10 @@
 /* Developers: Tamir Razon 207421322, Daniel Korkus 314629692 */
-/* App.css */
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* 65% of the viewport height */
-  height: 80vh;
   margin: 0;
-  margin-top: 10vh;
+  margin-top: 15vh;
 }
 
 .container {
@@ -84,6 +81,7 @@ form {
   font-weight: bold;
   color: #3463c2;
   text-align: center;
+  margin: 0;
 }
 
 /* Styling for container */
